@@ -13,3 +13,8 @@ REDIRECT: Cambia la ruta url, reinicia el request y refresca el navegador, adem√
 ### Crear el deploy con mvnw desde VSCODE:
 
 extension maven de java
+
+## Seccion 9:
+
+* Realizaci√≤n de un CRUD
+* Como realizar consultas personalizadas como UPPER, LOWER, CONCAT, ORDER, COUNT, MIN, MAX, LONG, SUM, AVG.

@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "persons")
+@Table(name="persons")
 public class Person {
 
     @Id
@@ -16,7 +16,7 @@ public class Person {
     private Long id;
     
     private String name;
-    private String lastName;
+    private String lastname;
 
     @Column(name = "programming_language")
     private String programmingLanguage;
@@ -24,10 +24,15 @@ public class Person {
     public Person() {
     }
 
-    public Person(Long id, String name, String lastName, String programmingLanguage) {
+    public Person(String name, String lastname) {
+        this.name = name;
+        this.lastname = lastname;
+    }
+
+    public Person(Long id, String name, String lastname, String programmingLanguage) {
         this.id = id;
         this.name = name;
-        this.lastName = lastName;
+        this.lastname = lastname;
         this.programmingLanguage = programmingLanguage;
     }
 
@@ -47,12 +52,12 @@ public class Person {
         this.name = name;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastName) {
+        this.lastname = lastName;
     }
 
     public String getProgrammingLanguage() {
@@ -61,6 +66,12 @@ public class Person {
 
     public void setProgrammingLanguage(String programmingLanguage) {
         this.programmingLanguage = programmingLanguage;
+    }
+
+    @Override
+    public String toString() {
+        return "[id=" + id + ", name=" + name + ", lastname=" + lastname + ", programmingLanguage="
+                + programmingLanguage + "]";
     }
 
 }

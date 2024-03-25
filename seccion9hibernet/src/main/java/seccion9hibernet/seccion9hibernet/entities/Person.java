@@ -1,6 +1,9 @@
 package seccion9hibernet.seccion9hibernet.entities;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,18 +11,21 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="persons")
+@Table(name = "persons")
 public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String name;
     private String lastname;
 
     @Column(name = "programming_language")
     private String programmingLanguage;
+
+    @Embedded
+    private Audit audit = new Audit();
 
     public Person() {
     }
@@ -70,8 +76,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "[id=" + id + ", name=" + name + ", lastname=" + lastname + ", programmingLanguage="
-                + programmingLanguage + "]";
+        return "Person [id=" + id + ", name=" + name + ", lastname=" + lastname + ", programmingLanguage="
+                + programmingLanguage + ", audit=" + audit + "]";
     }
 
 }

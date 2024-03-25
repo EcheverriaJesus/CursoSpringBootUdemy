@@ -17,4 +17,11 @@ extension maven de java
 ## Seccion 9:
 
 * Realizaciòn de un CRUD
+* @Query("Consulta")
 * Como realizar consultas personalizadas como UPPER, LOWER, CONCAT, ORDER, COUNT, MIN, MAX, LONG, SUM, AVG.
+
+## Seccion 10:
+
+* Columnas Created & Updatad en la tabla
+* Notacion @Embeddeble
+* Trabajando con CleanCode en los metodos Created y Updated

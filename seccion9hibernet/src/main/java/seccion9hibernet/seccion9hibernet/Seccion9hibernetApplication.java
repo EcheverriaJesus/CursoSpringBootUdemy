@@ -29,7 +29,7 @@ public class Seccion9hibernetApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		whereIn();
+		update();
 	}
 
 	@Transactional(readOnly = true)

@@ -25,3 +25,14 @@ extension maven de java
 * Columnas Created & Updatad en la tabla
 * Notacion @Embeddeble
 * Trabajando con CleanCode en los metodos Created y Updated
+
+## Seccion 11:
+
+* Conexion a Base de Datos, configuracion para crear automaticamente la tabla desde el entity
+* JPA
+* Hibernate
+* Relaciones en tablas: ManyToMany, ManyToOne, OneToOne, OneToMany
+* Creacion de tablas pibotes automaticas y personalizadas
+* Creacion de llaves foraneas automaticas y personalizadas @Join Column
+* Eliminación de datos relacionados entre tablas
+* Relaciones Bidirecionales

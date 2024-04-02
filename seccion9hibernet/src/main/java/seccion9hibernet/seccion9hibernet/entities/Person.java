@@ -1,7 +1,5 @@
 package seccion9hibernet.seccion9hibernet.entities;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;

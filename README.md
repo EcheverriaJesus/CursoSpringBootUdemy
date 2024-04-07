@@ -1,6 +1,6 @@
 # Aprendiendo Spring Boot 🍃
 
-> 🧑‍🚀 **Curso Spring Boot Udemy?** Jesus Echeverria!
+> 🧑‍🚀 **Curso Spring Boot Udemy** Jesus Echeverria!
 
 ### Configurar las variables del properties con utf-8:
 
@@ -67,3 +67,31 @@ extension maven de java
 * No se necesitan variables en el properties
 
 > ⚠️ **PERSONALIZAR LOS EMNSAJES** Por @Notaciones
+
+## Seccion 13:
+
+* Asignar un valor default a una columna en la BD @PrePersist
+
+* Saber si un valor ya existe en la BD
+
+> 🛡️ **SPRING SECURITY** Utilizabdo CRUD de la seccion 12
+
+> 🌐 **JWT** Spring Security
+
+> ♻️ **CEACIÓN Y VIDA DE UN TOKEN** Jwt
+
+> 👤 **ROLES Y PERMISOS** Utilizando clase especifica
+
+> 👤 **ROLES Y PERMISOS** Utilizabdo Notaciones @
+
+* @PreAuthorize
+
+> 🛡️ **CORS** Configuración del Cors
+
+* Cualquier Ruta: @CrossOrigin(OriginPatterns = "*")
+
+* Rutas Especificas: @CrossOrigin(Origins = "Rutas")
+
+* CorsConfigurationSource
+
+* CorsFilter

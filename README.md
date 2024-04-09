@@ -71,7 +71,6 @@ extension maven de java
 ## Seccion 13:
 
 * Asignar un valor default a una columna en la BD @PrePersist
-
 * Saber si un valor ya existe en la BD
 
 > 🛡️ **SPRING SECURITY** Utilizabdo CRUD de la seccion 12
@@ -89,9 +88,37 @@ extension maven de java
 > 🛡️ **CORS** Configuración del Cors
 
 * Cualquier Ruta: @CrossOrigin(OriginPatterns = "*")
-
 * Rutas Especificas: @CrossOrigin(Origins = "Rutas")
-
 * CorsConfigurationSource
-
 * CorsFilter
+
+## Seccion 15: 
+
+> 📦 **CREACION DEL BUILD** Enpaquetado del proyecto
+
+```bash
+  ./mvnw clean package
+```
+
+> 🌐 **SERVIDOR** Base de dtaos AWS
+
+* Amazón RDS
+* Subir Jar en AWS
+
+## Seccion 16: 
+
+> **APACHE TOMCAT** Deploy
+
+## Seccion 17:
+
+> **REACT.JS** Proyecto react.js
+
+* Creacion de proyecto con vite
+
+```bash
+  npm create vite@latest
+```
+
+* PorpTypes
+* CRUD con useState & useEffect
+* Estilos con Boostrap 

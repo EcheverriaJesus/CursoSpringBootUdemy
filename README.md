@@ -135,3 +135,13 @@ Con la dependencia Data Rest se configura un Crud en poco timepo,, se necita la 
 ```bash
   @RepositoryRestResource(path = "NameEntity")
 ```
+
+## Seccion 19:
+
+> **AXIOS EN REACT.JS** Configuracion de React para consumo de apis
+
+* Instalacion de Axios en react.js
+```bash
+  npm i axios
+```
+* Consumo del back de la seccion 18 con react.js y axios para realizart el CRUD

@@ -36,8 +36,8 @@ export const ProductApp = () => {
 
     }
     const handlerRemoveProduct = (id) => {
-        console.log(name);
-        setProducts(products.filter(user => user.id != id))
+        console.log(id);
+        setProducts(products.filter(product => product.id != id))
     }
 
     const handlerProductSelected = (product) => {

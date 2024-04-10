@@ -122,3 +122,16 @@ extension maven de java
 * PorpTypes
 * CRUD con useState & useEffect
 * Estilos con Boostrap 
+
+## seccion 18:
+
+> **BACK END** Pruebas con back end para react.js
+
+* Spring Data Rest CRUD
+* HATEOAS -> "Hypermedia As The Engine Of Application State"
+
+Con la dependencia Data Rest se configura un Crud en poco timepo,, se necita la configuracion en el repository.
+
+```bash
+  @RepositoryRestResource(path = "NameEntity")
+```

@@ -144,4 +144,41 @@ Con la dependencia Data Rest se configura un Crud en poco timepo,, se necita la 
 ```bash
   npm i axios
 ```
-* Consumo del back de la seccion 18 con react.js y axios para realizart el CRUD
+* Consumo del back de la seccion 18 con react.js y axios para realizar el CRUD
+
+## Seccion 20:
+
+> **ANGULAR** Configuracion de angular para consumo de apis
+
+* Instalar ultima version de angular
+
+```bash
+  npm install -g @angular/cli
+```
+* Crear proyecto en Angular
+
+```bash
+  ng create angular-app
+```
+* Observables: Metodos: Suscribe, Map, Filter, Retry
+* Crear componente en Angular
+
+> **COMPONENTE** Crear un componente en angular desde consola
+
+```bash
+  ng generate component components/product
+``` 
+
+ng --> comando angular
+generate --> craer archivo
+component --> tipo de archivo (component || service)
+components --> carpeta dentro de app
+product --> carpeta dentro de components y nombre de archivo
+
+* Validacion con Angular para Formularios
+
+## Seccion 21:
+
+> **CONSUMO APIS** Configuracion para consumir api en angular
+
+# Segundo Curso dentro del mismo -- Spring Boot -- 🍃

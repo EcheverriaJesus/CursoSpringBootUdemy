@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.seccion18.seccion18.entities.Product;
 
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = {"http://localhost:3000/", "http://localhost:4200/"})
 @RepositoryRestResource(path = "products")
 public interface ProductRepository extends CrudRepository<Product, Long>{
     

@@ -182,3 +182,7 @@ product --> carpeta dentro de components y nombre de archivo
 > **CONSUMO APIS** Configuracion para consumir api en angular
 
 # Segundo Curso dentro del mismo -- Spring Boot -- 🍃
+
+## Seccion: 24
+
+> **CARACTERISTICAS** Thymleaf, @GetMappping, Redirect, Forward

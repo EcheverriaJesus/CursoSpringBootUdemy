@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar</title>
+</head>
+<body>
+    <div th:text="${resultado}"></div>
+    <ul>
+        <li>
+            <a th:href="@{/params/string(texto='Soyyyyy NOeee')}">/params/string?texto= Soyyyy NOeee</a>
+        </li>
+        <li>
+            <a th:href="@{/params/string(texto='El noe')}">/params/string?texto= El Noee</a>
+        </li>
+        <li>
+            <a th:href="@{/params/mix-params(saludo='Que onda!!!', numero=7)}">/params/mix-params?saludo = Que onda! y numero</a>
+        </li>
+    </ul>
+</body>
+</html>

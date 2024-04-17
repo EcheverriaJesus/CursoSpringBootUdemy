@@ -183,6 +183,31 @@ product --> carpeta dentro de components y nombre de archivo
 
 # Segundo Curso dentro del mismo -- Spring Boot -- 🍃
 
-## Seccion: 24
+## Seccion: 24:
 
 > **CARACTERISTICAS** Thymleaf, @GetMappping, Redirect, Forward
+
+## Seccion 28:
+
+> **INTERCEPTORES** Metodo Handler
+
+## Seccion: 30:
+
+> **ENDPOINTS CRUD** Creacion de los metodos del CRUD
+
+## Seccion 31:
+
+> **LAYOUT** Archivo layout HTML para las vistas en el tamplete
+
+* fragment
+* replace
+
+> **ALERTS** Creacion de alertas para las acciones del CRUD
+
+* Configuracion de tipo de alertas y mensaje en el controlador
+* Diseño de alertas con Boostrapp 
+
+> **PAGINATION** Creacion de la paginacion
+
+* Configuracion de la paginacion en la carpeta paginator (Pageable, PageRequest)
+* Diseño Boostrapp

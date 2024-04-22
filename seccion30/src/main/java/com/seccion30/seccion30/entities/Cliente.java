@@ -26,7 +26,7 @@ public class Cliente implements Serializable {
     private Long id;
 
     @NotEmpty
-    private String nombre, apellido, foto;
+    private String nombre, apellido;
 
     @Email
     private String email;

@@ -1,0 +1,31 @@
+<div class="card text-center">
+    <div class="card-header">CLIENTES</div>
+    <div class="card-body">
+        <h4 class="card-title">List Clients</h4>
+        <table class="table table-hover table-striped table-borderd">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (cliente of clientes; track $index) {
+                <tr>
+                    <td>{{ cliente.id }}</td>
+                    <td>{{ cliente.name }}</td>
+                    <td>{{ cliente.lastname }}</td>
+                    <td>{{ cliente.email }}</td>
+                    <td>{{ cliente.createAt }}</td>
+                </tr> 
+            }
+            </tbody>
+        </table>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+    </div>
+    <div class="card-footer text-muted">2 days ago</div>
+</div>

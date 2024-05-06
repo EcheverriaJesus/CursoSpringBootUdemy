@@ -56,7 +56,7 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(createdProduct);
     }
 
-    @PutMapping("update/{code}")
+    @PutMapping("/update/{code}")
     public ResponseEntity<ProductDTO> updateProduct(@PathVariable String code,
             @Valid @RequestBody ProductDTO productDTO) {
         Optional<ProductDTO> existingProducOptional = productService.findByCode(code);

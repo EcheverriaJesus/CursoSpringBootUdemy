@@ -27,8 +27,8 @@ public class Debt {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String customer_name, description;
-    private Double leave, subtract, total;
+    private String name, description;
+    private Double leavemoney, subtract, total;
 
     @NotNull
     @Column(name = "create_at")

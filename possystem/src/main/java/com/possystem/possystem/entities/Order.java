@@ -31,7 +31,7 @@ public class Order {
     private String customer_name, direction, description;
     private Number phone;
     private Date delivery_date;
-    private Double leave, substract, total;
+    private Double leave_money, substract, total;
 
     @NotNull
     @Column(name = "create_at")

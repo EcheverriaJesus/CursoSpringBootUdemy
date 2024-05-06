@@ -1,11 +1,22 @@
 package com.possystem.possystem.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import java.util.Optional;
 
-import com.possystem.possystem.repositories.DebtRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
-public class DebtService {
-    
-    @Autowired
-    DebtRepository debtRepository;
+import com.possystem.possystem.dto.DebtDTO;
+
+public interface DebtService {
+
+    List<DebtDTO> findAll();
+
+    Optional<DebtDTO> findByName(String name);
+
+    DebtDTO save (DebtDTO debt);
+
+    void deleteByName(String name);
+
+    Page<DebtDTO> findAll(Pageable pageable);
 }
